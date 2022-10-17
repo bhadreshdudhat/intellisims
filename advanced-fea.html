@@ -1,0 +1,408 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head><link rel="shortcut icon" type="image/png" href="favicon.png"/><link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>IntelliSIMS Advanced Analysis Advanced FEA</title>
+
+<link href="css/rebuild.css" rel="stylesheet" type="text/css" />
+
+
+
+<link rel="stylesheet" href="IntelliSIMS.css">
+
+<meta name="description" content="Advanced Analysis-Advanced FEA of Structural Components"><meta name="keywords" content="Advanced FEA, structural components, FEA software, ABAQUS, ANSYS, SESAM, ASAS, STAAD, SACS, USFOS, offshore, onshore, loadings">
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+
+
+<!--Fixed Navigation Script Starts Here-->
+
+<script type='text/javascript'>
+
+$(window).load(function(){
+
+$(window).scroll(function(){
+
+if($(window).scrollTop() > 5){
+
+$('#header_top').css('position','fixed').css('top','0');
+
+} else {
+
+$('#header_top').css('position','absolute').css('top','0px');
+
+}    
+
+}); 
+
+
+
+
+
+
+
+$(window).scroll(function(){
+
+if($(window).scrollTop() > 195){
+
+
+
+	$('.banner').css('position','fixed').css('top','-194px');
+
+	$('.border1').css('position','fixed').css('top','88px');
+
+	$('#middle').css('position','relative').css('padding-top','283px');
+
+} else {
+
+
+
+$('.banner').css('position','relative').css('top','0');
+
+$('.border1').css('position','relative').css('top','0px');
+
+$('#middle').css('position','relative').css('padding-top','0px');
+
+}    
+
+}); 
+
+  
+
+});//]]>   
+
+</script>
+
+
+<!--Fixed Navigation Script Ends Here-->
+
+ <!--Google Analytics--><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6938229-20', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- end analytics-->
+</head>
+
+
+
+
+
+<body class="inner AdvancedFEA AdvAnalyist">
+
+
+
+<div id="container">
+
+
+
+<!--Header Starts Here-->
+
+
+
+<div class="header">
+
+
+
+ 	<div id="header_top">
+<!--Logo Starts Here-->
+    	<div class="logo"><a href="index.html"><img src="images/logo-img.png" alt="logo-img" /></a></div>
+<!--Logo Ends Here-->
+
+<!--Navigation Starts Here-->
+        <div class=" head_right">
+
+       <nav>        	
+       	<div class="nav-main">          
+       		<ul class="nav"><li class="nav-item1"><a href="#">PROJECT MANAGEMENT</a>	   <ul class="dropdown">	   <li><a href="project_management.html">Project Management</a> </li>	   <li><a href="inspection.html">Inspection</a></li>	   <li><a href="hse.html">HSE</a></li>	   <li><a href="consulting.html">Consulting</a></li>		   <li><a href="cva.html">CVA</a></li>		   <li><a href="compliance.html">Compliance</a></li>	   <li><a class="active" href="detailed_engineering.html">Detailed Engineering</a></li>   <li><a href="ijacket.html" title="iJacket">iJacket</a></li>		   </ul>	</li>         
+       		 <li class="nav-item1"><a href="#">STRUCTURAL INTEGRITY MANAGEMENT</a>		
+       		 	<ul class="dropdown">			
+       		 		<li><a href="management-programs.html">Management Programs</a> </li>			
+       		 			<li><a href="data.html">Data</a></li>				
+       		 			<li><a href="evaluation.html">Evaluation</a></li>				
+       		 			<li><a href="strategy.html">Strategy</a></li><li><a href="rbi.html">Risk-based Inspection</a></li>		<li><a href="execution.html">Execution</a></li>				
+       		 			<li><a href="decommissioning.html">Decommissioning</a></li>				
+       		 			<li><a href="smr.html">SMR</a></li>			
+       		 		</ul>		  
+       		 	</li>         
+       		 	<li class="nav-item2"><a  class="active"  href="#">ADVANCED ANALYSIS</a> 				
+       		 		<ul class="dropdown">				
+       		 			<li><a href="fire-blast.html">Fire & Blast</a> </li>				
+       		 			<li><a href="accidental-loading.html">Accidental Loading</a></li>				
+       		 			<li><a href="fatigue-fracture.html">Fatigue and Fracture</a></li>				
+       		 			<li><a  href="ultimate-strength.html">Ultimate Strength</a></li>				
+       		 			<li><a href="earthquake.html">Earthquake</a></li>				
+       		 			<li><a  class="active"  href="advanced-fea.html">Advanced FEA</a></li>			
+       		 		</ul>		 
+       		 		 </li>   <li class="nav-item3"><a style="padding-bottom:20px" href="#">TECHNOLOGY AND INNOVATION</a>	<ul class="dropdown">				
+       		 		  		<li><a href="ijacket.html" title="iJacket">iJacket&#8482;</a> </li><li><a href="codes-standards.html">Codes and Standards</a> </li>				
+       		 		  		<li><a href="jip.html">Joint Industry Projects</a></li>	 <li><a href="softdev.html">Software Developement</a></li>				
+       		 		  	</ul>		  
+       		 		  </li>         
+       		 		   <li class="nav-item4"><a style="padding-bottom:20px" href="#">Enterprise Risk Management </a>	 <ul class="dropdown">	 <li><a href="erm.html">ERM</a> </li>	  </ul> </li>   	 <li class="nav-item4"><a href="#">ABOUT INTELLISIMS </a>			
+       		 		   	<ul class="dropdown">				
+       		 		   		<li><a href="leadership.html">Leadership</a> </li>				
+       		 		   		<li><a href="contact-map.html">Locations</a></li>					
+       		 		   		<li><a href="careers.html">Careers</a></li><li><a href="clients.html">Clients</a></li><li><a href="useful-links.html">Useful Links</a></li>	
+       		 		   		<!-- <li><a href="testimonials.html">Testimonials</a></li> -->				
+       		 		   		<li><a href="sitemap.html" target="_blank">Site Index</a></li>	</ul>		  
+       		 		   </li>          
+       		 		      <!-- <li class="nav-item5"><a href="http://www.isims-ps.com/" target="_blank">Project Management</a></li>  -->     
+       		 		</ul>      
+       		 	</div>      	
+       		 </nav>
+
+        	
+
+      </div>
+<!--Navigation Ends Here-->
+    </div>
+
+    
+
+	<!--Banner Starts Here-->
+
+
+
+    <div class="banner">
+
+
+
+	
+
+
+
+		<img src="images/AA-headerphoto.jpg">
+
+
+
+	
+
+
+
+	</div>
+
+
+	<!--Banner Ends Here-->
+
+
+
+    <div class="clr"></div>
+
+
+ </div>
+
+<!--Header Ends Here-->
+
+<!--Border Starts Here-->
+ <div class="border1">
+ </div>
+<!--Border Ends Here-->
+
+
+
+ <div id="middle">
+
+
+
+ 	<div id="main-container">
+
+
+
+		<div class="middle_main">
+
+
+
+			<!--  Left Sidebar Starts Here -->
+
+
+
+			<div class="Left_sidebar">
+
+
+
+				<div class="page_details">
+
+
+
+					<h2 class="page-totle">Advanced Analysis<br>Advanced FEA</h2>
+<h2 class="page-totle">Advanced FEA of<br>Structural Components</h2>
+
+
+					<p class="sub-title">Numerical solution by<br>discreting structures </p>
+
+				</div>
+
+
+
+				<img src="images/AA-E-L.jpg">
+
+
+
+			</div>
+
+	<!--  Left Sidebar Ends Here -->
+
+
+
+			<!-- Content Area Starts Here -->
+
+
+
+			<div class="main_content">
+
+
+
+				<div class="top_text">
+
+				<p>The IntelliSIMS team is the master of various industrial standard FEA software (including ABAQUS, ANSYS, SESAM, ASAS, STAAD, SACS and USFOS). We have  carried out advanced FEAs of numerous offshore and onshore structures and structural components to explore their response under different types of loadings (such as, static, dynamic, thermal, explosion or ground motion). </p>
+
+				
+
+				</div>
+
+
+
+
+
+               <div class="service_list">
+
+					<h3>Services include:</h3>
+
+					<ul>
+
+						<li>Global nonlinear FEA of offshore and naval structures</li>
+
+						<li>Detailed FEA of structural components</li>
+
+						<li>Design verification through advanced FEA</li>
+
+						<li>Detailed engineering design through advanced FEA</li>
+						<li>Damage investigation of offshore structures through advanced FEA</li>
+
+					</ul>
+
+					</div>
+
+					
+
+					<div class="service_list">
+
+					<h3>Projects:</h3>
+
+					<ul>
+
+						<li>Damage investigation and strengthening design for deepwater suction piles in the U.S. GOM (Gulf of Mexico)</li>
+
+						<li>Design verification of suction piles for deepwater GOM floating production systems</li>
+
+						<li>Detailed design of pile-sleeve connections through FEA for fixed jacket structures offshore Trinidad and Tobago </li>
+
+						<li>Fatigue damage investigation and repair design of super yacht suffering fatigue failures</li>
+						<li>Detailed design of blast wall for North Sea topside structures</li>
+						<li>Collapsed investigation of a dust collector of blast furnace-confidential</li>
+						<li>Advanced FEA of damages conductors on offshore fixed platforms</li>
+						
+					</ul>
+
+					</div>
+
+
+			</div>
+
+
+
+		
+			<!-- Content Area Ends Here -->
+
+
+
+			
+
+
+<!-- Right Sidebar Starts Here -->
+
+
+			<div class="Right_sidebar">
+
+
+
+				<img src="images/AA-AFEA-R1.jpg" alt="">
+
+				<img src="images/AA-AFEA-3.jpg" alt="">
+
+				<img src="images/AA-AFEA-2.jpg" alt="">
+				<img src="images/AA-AFEA-4.jpg" alt="">
+
+
+
+			</div>
+
+
+	<!-- Right Sidebar Ends Here -->
+
+
+
+		</div>	
+
+
+
+	</div>
+
+
+
+</div>
+
+<!-- Footer Starts Here -->
+<footer>	
+	   <div class="footer_top">	
+	   	<div class="footer_logo-new">
+
+
+
+			<!-- <img src="images/flogo.jpg"><br>O: + 1 832 303 8008<br>F: + 1 713 239 2454<br>info@intelliSIMS.com --> <img src="images/flogo.jpg"> <br> d.b.a. Intellisims <a href="contact-map.html"><b>Contact Us</b></a>  <a href = "mailto: info@intelliSIMS.com">info@intelliSIMS.com</a>
+
+
+
+		</div>
+	   <div class="social_icons">	
+	   <ul>		
+	   <li><a href="https://www.linkedin.com/company/3560568?trk=prof-0-ovw-curr_pos" target="_blank"><img src="images/linkedIn.png"></a></li>		
+	   	
+	   <li><a href="https://www.facebook.com/isimsps" target="_blank"><img src="images/facebook-copy.png"></a></li>
+	   </ul>	
+	   </div>	
+	   <div class="address">900 Town & Country Lane, Suite 303, Houston, TX 77024</div>	
+	   <a href="https://www.bbb.org/us/tx/houston/profile/engineering-consultant/isims-llc-0915-90050268/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-houston.bbb.org/seals/blue-seal-200-65-bbb-90050268.png" style="border: 0;" alt="iSIMS LLC BBB Business Review" /></a><div class="copy-right-new">&copy; 2022 iSIMS LLC. All rights reserved.</div><br>
+<div class="sitemap_links-new"><a href="sitemap.html" target="_blank">site map</a></div>
+	   </div> 
+	   </footer> 
+
+<!-- Footer Ends Here -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

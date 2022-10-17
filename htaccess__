@@ -1,0 +1,7 @@
+
+RewriteOptions inherit
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^/?$ "https\:\/\/www\.intellisims\.com\/index\.html" [R=301,L]
